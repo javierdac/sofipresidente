@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sofi Presidente</title>
+  <title>AHORA SI - Sofi Presidente</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
@@ -72,24 +72,19 @@
       100% { background-position: 0% 50%; }
     }
 
-    #hero .title-sofi {
-      font-size: clamp(5rem, 15vw, 12rem);
-      line-height: 1.3;
-      padding: 0.15em 0.1em 0;
-      background: linear-gradient(135deg, var(--yellow), var(--pink), var(--purple));
-      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-      background-clip: text;
+    .hero-logo {
+      width: clamp(250px, 50vw, 500px);
+      height: auto;
       animation: heroIn 1s ease-out;
-      text-shadow: none;
       position: relative;
       z-index: 2;
-      overflow: visible;
+      filter: drop-shadow(0 0 30px rgba(59, 130, 246, 0.4));
     }
 
     #hero .title-pres {
-      font-size: clamp(2rem, 6vw, 5rem);
+      font-size: clamp(2.5rem, 7vw, 5rem);
       color: white;
-      margin-top: -0.5rem;
+      margin-top: 1rem;
       position: relative;
       z-index: 2;
       animation: heroIn 1s ease-out 0.3s both;
@@ -535,9 +530,9 @@
 
   <!-- ======== NAV ======== -->
   <nav>
-    <div class="logo">SOFI 2026</div>
+    <div class="logo">AHORA SI</div>
     <ul class="nav-links">
-      <li><a href="#about">Sofi</a></li>
+      <li><a href="#about">El Partido</a></li>
       <li><a href="#qualities">Por que</a></li>
       <li><a href="#promises">Promesas</a></li>
       <li><a href="#game">Juego</a></li>
@@ -548,28 +543,28 @@
   <!-- ======== HERO ======== -->
   <section id="hero">
     <div id="particles"></div>
-    <h1 class="title-sofi">SOFI</h1>
-    <h1 class="title-pres">PRESIDENTE</h1>
-    <p class="subtitle">La unica candidata que no te va a aburrir</p>
+    <img src="logo-ahorasi.png" alt="AHORA SI - Partido Politico" class="hero-logo">
+    <p class="subtitle">El unico partido que no te va a aburrir</p>
     <a href="#about" class="scroll-indicator" aria-label="Scroll">&#11167;</a>
   </section>
 
   <!-- ======== ABOUT ======== -->
   <section id="about">
-    <h2 class="section-title reveal">Quien es Sofi?</h2>
+    <h2 class="section-title reveal">Quien es AHORA SI?</h2>
     <div class="content">
-      <div class="avatar-container reveal-left">&#129333;</div>
+      <div class="avatar-container reveal-left">&#9889;</div>
       <div class="about-text reveal-right">
         <p>
-          Compañera, amiga, la que <span class="highlight">siempre tiene un plan</span>
-          (y un snack en la mochila). Sofi no es una candidata mas.
-          Es <span class="highlight">LA</span> candidata.
+          Somos el partido que <span class="highlight">se canso de las mismas promesas vacias</span>.
+          AHORA SI nacio de un grupo de estudiantes que quiere
+          <span class="highlight">cambiar las cosas de verdad</span>.
         </p>
         <br>
         <p>
-          Mientras otros prometen "mejorar la convivencia", Sofi va al grano:
-          sabe lo que <span class="highlight">de verdad</span> necesitamos
-          y no tiene miedo de decirlo.
+          Con un equipo que esta en cada curso,
+          no somos uno solo: <span class="highlight">somos todos</span>.
+          Mientras otros partidos prometen "mejorar la convivencia",
+          nosotros vamos al grano.
         </p>
       </div>
     </div>
@@ -577,37 +572,37 @@
 
   <!-- ======== QUALITIES ======== -->
   <section id="qualities">
-    <h2 class="section-title reveal">Por que Sofi?</h2>
+    <h2 class="section-title reveal">Por que AHORA SI?</h2>
     <div class="cards-grid">
       <div class="quality-card reveal card-delay-1">
         <div class="icon">&#128170;</div>
         <h3>Determinacion</h3>
-        <p>Cuando Sofi dice que va a hacer algo, lo hace. No hay vuelta atras.</p>
+        <p>Cuando decimos que vamos a hacer algo, lo hacemos. No hay vuelta atras.</p>
       </div>
       <div class="quality-card reveal card-delay-2">
         <div class="icon">&#129504;</div>
         <h3>Ideas</h3>
-        <p>Siempre tiene propuestas nuevas. Y no, no son las mismas de todos los años.</p>
+        <p>Tenemos propuestas nuevas. Y no, no son las mismas de todos los años.</p>
       </div>
       <div class="quality-card reveal card-delay-3">
         <div class="icon">&#128588;</div>
         <h3>Escucha</h3>
-        <p>De verdad escucha. No de esas que asienten y despues hacen lo que quieren.</p>
+        <p>De verdad escuchamos. No de esos que asienten y despues hacen lo que quieren.</p>
       </div>
       <div class="quality-card reveal card-delay-4">
         <div class="icon">&#128526;</div>
         <h3>Onda</h3>
-        <p>Porque un presidente sin onda es como un recreo sin kiosco. Inaceptable.</p>
+        <p>Porque un partido sin onda es como un recreo sin kiosco. Inaceptable.</p>
       </div>
       <div class="quality-card reveal card-delay-5">
         <div class="icon">&#129309;</div>
-        <h3>Confianza</h3>
-        <p>Se banca los problemas y los resuelve. No los esconde debajo de la alfombra.</p>
+        <h3>Equipo</h3>
+        <p>No es una sola persona, somos un grupo que se banca los problemas y los resuelve.</p>
       </div>
       <div class="quality-card reveal card-delay-6">
         <div class="icon">&#127775;</div>
         <h3>Creatividad</h3>
-        <p>Siempre encuentra la forma de hacer las cosas distintas. Chau aburrimiento.</p>
+        <p>Siempre encontramos la forma de hacer las cosas distintas. Chau aburrimiento.</p>
       </div>
     </div>
   </section>
@@ -622,7 +617,7 @@
     <div class="promise-machine reveal">
       <div class="machine-label">&#9889; Maquina de Promesas &#9889;</div>
       <div class="promise-display">
-        <div class="promise-text" id="promiseText">Toca el boton y descubri que va a hacer Sofi por vos</div>
+        <div class="promise-text" id="promiseText">Toca el boton y descubri que va a hacer AHORA SI por vos</div>
       </div>
       <button class="promise-btn" id="promiseBtn" onclick="generatePromise()">NUEVA PROMESA</button>
       <div class="promise-counter">Promesas generadas: <strong id="promiseCount">0</strong></div>
@@ -631,10 +626,10 @@
 
   <!-- ======== GAME ======== -->
   <section id="game">
-    <h2 class="section-title reveal">Ayuda a Sofi!</h2>
+    <h2 class="section-title reveal">Ayuda a AHORA SI!</h2>
     <div class="game-container reveal">
       <p class="game-instructions">
-        Movi a Sofi para juntar votos &#11088; y esquivar la tarea &#128218;
+        Junta votos para el partido &#11088; y esquiva la tarea &#128218;
         <br>Usa las <strong>flechas</strong> del teclado o <strong>arrastra</strong> con el dedo.
       </p>
       <div class="game-hud">
@@ -660,8 +655,8 @@
 
   <!-- ======== CTA ======== -->
   <section id="cta">
-    <h2 class="cta-title reveal">Vota a Sofi!</h2>
-    <p class="cta-sub reveal">Dale click y demostra tu apoyo</p>
+    <h2 class="cta-title reveal">Vota AHORA SI!</h2>
+    <p class="cta-sub reveal">Dale click y demostra tu apoyo al partido</p>
     <button class="vote-btn reveal" id="voteBtn" onclick="handleVote()">VOTAR</button>
     <div class="vote-counter reveal">
       Votos: <span id="voteCount">0</span>
@@ -670,7 +665,7 @@
 
   <!-- ======== FOOTER ======== -->
   <footer>
-    Sofi Presidente 2026 &mdash; Hecho con ganas y cero presupuesto
+    AHORA SI &mdash; Sofi Presidente 2026 &mdash; Hecho con ganas y cero presupuesto
   </footer>
 
 <script>
